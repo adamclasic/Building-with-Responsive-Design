@@ -29,13 +29,14 @@ a {
   background-color: lawngreen;
 }
 
-.logo-cont>img {
+.logo-cont > img {
   height: 100%;
   width: 100%;
 }
 
 .logo-cont {
-  align-self: start;
+  height: 100%;
+  width: 101px;
 }
 
 .nav-sections {
@@ -61,7 +62,7 @@ a {
   flex: 1;
 }
 
-.right-sec>img {
+.right-sec > img {
   height: 16px;
 }
 
@@ -92,21 +93,18 @@ a {
   padding-top: 6px;
 }
 
-section {
+.upper-section {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(7, 78px);
   height: 100%;
-  width: 100vw;
 }
 
 .main-img-one {
   grid-column: 1/5;
   grid-row: 1/7;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(246, 113, 52, 0.73)),
-    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/New-Safari-Browser-Mockup-PSD-796x411.jpg);
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(246, 113, 52, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/New-Safari-Browser-Mockup-PSD-796x411.jpg);
   margin-right: 10px;
-
 }
 
 .date {
@@ -114,7 +112,6 @@ section {
   justify-content: flex-end;
   color: #fff;
   margin-right: 10px;
-
 }
 
 .main-img a {
@@ -124,7 +121,6 @@ section {
   align-items: center;
   color: #fff;
   margin-left: 10px;
-
 }
 
 .main-img h1 a {
@@ -149,14 +145,112 @@ section {
 .main-img-two {
   grid-column: 5/8;
   grid-row: 1/4;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-796x417.png");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-796x417.png");
   margin-bottom: 10px;
 }
 
 .main-img-three {
   grid-column: 5/8;
   grid-row: 4/7;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)),
-    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/Samsung-Noida-796x413.jpg");
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)), url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/Samsung-Noida-796x413.jpg");
+}
+
+.main-sec {
+  max-width: 1176px;
+  margin: auto;
+}
+
+.latest-grid-wraper,
+.grid-wraper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+  gap: 20px;
+}
+
+.latest-card {
+  height: 247px;
+}
+
+.latest-card h3 {
+  margin: 5px 0;
+  font-size: 99%;
+}
+
+.latest-card p {
+  margin: 12px 0;
+  font-size: 75%;
+  color: rgb(180, 180, 180);
+}
+
+.img-cont-latest img {
+  width: 100%;
+  height: 100%;
+}
+
+.section-title {
+  color: orangered;
+  font-size: 155%;
+}
+
+.card-rounds {
+  height: 240px;
+  background-color: lightgrey;
+}
+
+.category-card {
+  height: 656px;
+}
+
+.img-cont-cat {
+  color: #fff;
+  background-image: linear-gradient(0deg, rgba(0,0,0,1) 50%, rgba(0,212,255,0) 50%);
+  background-image: -moz-linear-gradient(0deg, rgba(0,0,0,1) 50%, rgba(0,212,255,0) 50%);
+  height: 276px;
+  width: 368px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.img-cont-cat {
+  background-image: url(https://placeimg.com/472/380/tech);
+}
+
+
+.img-cont-cat > div {
+  padding: 15px;
+}
+
+.img-cont-cat p {
+  font-size: 70%;
+}
+
+.highlihted-sec {
+  background-color: rgb(201, 173, 158);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.highlihted-info {
+  padding: 10px;
+}
+
+.highlihted-sec p {
+  margin: 10px 0;
+}
+
+.img-cont-cat h4 {
+  margin: 0;
+}
+
+.img-cont-cat p > span {
+  color: gray;
+}
+
+.cat-links li {
+  list-style-type: disc;
+  padding: 5px 0;
+  margin-left: 20px;
+  border-bottom: 1px solid grey;
 }
