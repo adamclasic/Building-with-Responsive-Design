@@ -16,6 +16,7 @@ a {
   position: sticky;
   top: 0;
   left: 0;
+  background-color: #fff;
 }
 
 .uppersec {
@@ -28,7 +29,7 @@ a {
   background-color: lawngreen;
 }
 
-.logo-cont > img {
+.logo-cont>img {
   height: 100%;
   width: 100%;
 }
@@ -60,7 +61,7 @@ a {
   flex: 1;
 }
 
-.right-sec > img {
+.right-sec>img {
   height: 16px;
 }
 
@@ -89,4 +90,73 @@ a {
   margin-left: 109px;
   display: block;
   padding-top: 6px;
+}
+
+section {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(7, 78px);
+  height: 100%;
+  width: 100vw;
+}
+
+.main-img-one {
+  grid-column: 1/5;
+  grid-row: 1/7;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(246, 113, 52, 0.73)),
+    url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/New-Safari-Browser-Mockup-PSD-796x411.jpg);
+  margin-right: 10px;
+
+}
+
+.date {
+  display: flex;
+  justify-content: flex-end;
+  color: #fff;
+  margin-right: 10px;
+
+}
+
+.main-img a {
+  display: flex;
+  font-size: 15px;
+  justify-content: flex-start;
+  align-items: center;
+  color: #fff;
+  margin-left: 10px;
+
+}
+
+.main-img h1 a {
+  display: flex;
+  font-size: 100%;
+  color: #fff;
+  margin-left: 10px;
+}
+
+.author {
+  color: #fff;
+  margin-left: 10px;
+  bottom: 0;
+  align-self: baseline;
+  margin-top: -10px;
+}
+
+.main-img-two .author {
+  margin-top: -20px;
+}
+
+.main-img-two {
+  grid-column: 5/8;
+  grid-row: 1/4;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-796x417.png");
+  margin-bottom: 10px;
+}
+
+.main-img-three {
+  grid-column: 5/8;
+  grid-row: 4/7;
+  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(22, 9, 10, 0.73)),
+    url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2018/07/Samsung-Noida-796x413.jpg");
 }
