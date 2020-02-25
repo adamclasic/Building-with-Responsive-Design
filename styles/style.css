@@ -30,7 +30,8 @@ h5 {
 
 .bottomsec {
   height: 30px;
-  background-color: lawngreen;
+  overflow: hidden;
+  background-color: rgb(227, 252, 0);
 }
 
 .bottomsec p {
@@ -177,7 +178,7 @@ h5 {
 
 .main-sec {
   max-width: 1176px;
-  margin: auto;
+  margin: auto 80px;
 }
 
 .latest-grid-wraper,
@@ -215,6 +216,7 @@ h5 {
 .card-rounds {
   height: 240px;
   background-color: rgb(253, 238, 238);
+  overflow: hidden;
 }
 
 .card-rounds p {
@@ -225,7 +227,6 @@ h5 {
 .upper-sec-round > img {
   float: left;
   margin: 10px;
-
 }
 
 .upper-sec-round {
@@ -238,7 +239,6 @@ h5 {
   color: #fff;
   background-color: rgb(255, 59, 59);
   padding: 10px;
-
 }
 
 .pink-sec-round {
@@ -277,6 +277,7 @@ h5 {
   background-image: url(https://placeimg.com/472/380/tech);
   background-size: cover;
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .img-cont-cat > div {
@@ -293,6 +294,8 @@ h5 {
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-top: 1px;
+  cursor: pointer;
 }
 
 .highlihted-info {
@@ -304,7 +307,7 @@ h5 {
   height: 100%;
 }
 
-.highlihted-sec p {
+.highlihted-info > p {
   margin: 10px 0;
 }
 
@@ -313,15 +316,17 @@ h5 {
 }
 
 .img-cont-cat p > span {
-  color: gray;
+  color: rgb(161, 161, 161);
 }
 
 .cat-links li {
   list-style-type: disc;
-  padding: 5px 0;
+  padding: 10px 0;
   margin-left: 20px;
   border-bottom: 1px solid rgb(236, 236, 236);
   color: rgb(104, 104, 104);
+  font-size: 89%;
+  cursor: pointer;
 }
 
 .cat-grid-wraper {
@@ -349,6 +354,7 @@ h5 {
 footer {
   background-color: #000;
   color: lightgrey;
+  margin-top: 80px;
 }
 
 .footer-upper-sec {
@@ -403,6 +409,10 @@ footer {
   font-weight: bolder;
 }
 
+.highlihted-info p:nth-child(2) {
+  font-weight: bold;
+}
+
 @media only screen and (max-width: 1270px) {
   .hide {
     display: none;
@@ -432,6 +442,7 @@ footer {
 
   .bottomsec > p {
     margin: auto;
+    overflow: hidden;
   }
 
   .bottomsec {
@@ -442,6 +453,11 @@ footer {
     display: unset;
     width: 90%;
     margin: auto;
+  }
+  
+  .main-img {
+    margin-right: 5px;
+    margin-left: 5px;
   }
 
   .upper-section .main-img {
@@ -465,6 +481,10 @@ footer {
     grid-template-rows: repeat(8, 75px);
   }
 
+  .round-grid-wraper {
+    grid-template-rows: repeat(4, 221px);
+  }
+
   .latest-card {
     overflow: hidden;
     height: 75px;
@@ -483,7 +503,6 @@ footer {
 
   .latest-header {
     display: unset;
-
   }
 
   .latest-header nav {
@@ -495,7 +514,6 @@ footer {
     display: block;
     border-right: 0;
     padding: 5px 0;
-
   }
 
   .uppersec {
@@ -512,5 +530,42 @@ footer {
     background-color: unset;
     color: orangered;
     border: 0;
+  }
+
+  .category-card {
+    overflow: hidden;
+  }
+
+  .card-rounds {
+    height: 221px;
+    background-color: rgb(253, 238, 238);
+    overflow: hidden;
+  }
+
+  .mid-sec-round > p {
+    line-height: 1.5;
+    font-size: 95%;
+    padding: 6px 0;
+  }
+
+  .main-img-one {
+    margin-right: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .main-sec {
+    margin: 5px;
+    max-width: unset;
+  }
+
+  .bottomsec > p {
+    font-size: 80%;
+  }
+
+  .mid-sec-round > p {
+    /* line-height: 1.5; */
+    font-size: 95%;
+    padding: 3px 0;
   }
 }
