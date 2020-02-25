@@ -225,7 +225,6 @@ h5 {
 .upper-sec-round > img {
   float: left;
   margin: 10px;
-
 }
 
 .upper-sec-round {
@@ -238,7 +237,6 @@ h5 {
   color: #fff;
   background-color: rgb(255, 59, 59);
   padding: 10px;
-
 }
 
 .pink-sec-round {
@@ -483,7 +481,6 @@ footer {
 
   .latest-header {
     display: unset;
-
   }
 
   .latest-header nav {
@@ -495,7 +492,6 @@ footer {
     display: block;
     border-right: 0;
     padding: 5px 0;
-
   }
 
   .uppersec {
