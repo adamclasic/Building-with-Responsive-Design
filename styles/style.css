@@ -112,7 +112,7 @@ h5 {
   justify-content: space-between;
 }
 
-.top-nav li{
+.top-nav li {
   margin: 0 10px;
 }
 
@@ -266,6 +266,11 @@ h5 {
 .img-cont-latest img {
   width: 100%;
   height: 100%;
+}
+
+.latest-header > p {
+  color: orangered;
+  align-self: center;
 }
 
 .section-title {
@@ -473,6 +478,10 @@ footer {
   font-weight: bold;
 }
 
+.bottom-footer-sec p:nth-child(2) {
+  display: none;
+}
+
 @media only screen and (max-width: 1270px) {
   .hide {
     display: none;
@@ -489,9 +498,34 @@ footer {
   .hide-on-middle {
     display: none;
   }
+
+  .upper-div > h1 {
+    display: none;
+  }
+
+  .main-img h1 {
+    font-size: 140%;
+  }
+
+  .latest-header {
+    display: unset;
+  }
+
+  .latest-header nav {
+    padding: 10px 0;
+    display: flex;
+  }
+
+  .latest-header nav a {
+    display: block;
+  }
+
+  .round-grid-wraper li:nth-child(4) {
+    display: none;
+  }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 773px) {
   .nav-header {
     display: none;
   }
@@ -521,7 +555,7 @@ footer {
   }
 
   .upper-section .main-img {
-    height: 120px;
+    height: 160px;
     font-size: 60%;
   }
 
@@ -615,6 +649,10 @@ footer {
   .search-icon-cont {
     display: none;
   }
+
+  .bottom-footer-sec p {
+    width: 267px;
+  }
 }
 
 @media only screen and (max-width: 500px) {
@@ -632,7 +670,6 @@ footer {
   }
 
   .mid-sec-round > p {
-    /* line-height: 1.5; */
     font-size: 95%;
     padding: 3px 0;
   }
