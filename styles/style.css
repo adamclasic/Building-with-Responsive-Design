@@ -523,6 +523,10 @@ footer {
   .round-grid-wraper li:nth-child(4) {
     display: none;
   }
+
+  .top-nav {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 773px) {
