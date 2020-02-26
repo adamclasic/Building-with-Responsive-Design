@@ -10,7 +10,7 @@ This project consists of replicating the The Next Web website putting emphasis o
 
 ## Live Demo
 
-[Live Demo Link](https://rawcdn.githack.com/adamclasic/Building-with-Responsive-Design/ec639e77430a82baff9a94ba0591802260ab07d9/index.html)
+[Live Demo Link](https://rawcdn.githack.com/adamclasic/Building-with-Responsive-Design/82e4801b97dbf6e66a7a2979f4860adc7070f2ec/index.html)
 
 
 ## Authors
