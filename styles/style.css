@@ -486,7 +486,7 @@ footer {
 }
 
 @media only screen and (max-width: 1027px) {
-  .right-sec {
+  .hide-on-middle {
     display: none;
   }
 }
@@ -611,9 +611,17 @@ footer {
   .main-img-one {
     margin-right: 0;
   }
+
+  .search-icon-cont {
+    display: none;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .search-icon-cont {
+    display: none;
+  }
+
   .main-sec {
     margin: 5px;
     max-width: unset;
