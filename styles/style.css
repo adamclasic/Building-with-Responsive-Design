@@ -17,18 +17,30 @@ h5 {
 
 .header {
   height: 80px;
+  background-color: #fff;
   position: sticky;
   top: 0;
   left: 0;
-  background-color: #fff;
 }
 
 .uppersec {
   height: 48px;
   display: flex;
+  position: sticky;
+  top: 0;
+  left: 0;
+}
+
+.sticky-section {
+  position: sticky;
+  top: 0;
+  left: 0;
 }
 
 .bottomsec {
+  position: sticky;
+  top: 0;
+  left: 0;
   height: 30px;
   overflow: hidden;
   background-color: rgb(227, 252, 0);
@@ -45,9 +57,34 @@ h5 {
   width: 100%;
 }
 
+.upper-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upper-div > h1 {
+  font-size: 800%;
+  color: #fff;
+  margin: 0;
+  padding-left: 20px;
+}
+
+.search-icon-cont {
+  display: flex;
+  border-left: 1px solid rgb(214, 214, 214);
+}
+
+.search-icon-cont > i {
+  margin: auto;
+  padding: 0 20px;
+  color: gray;
+}
+
 .logo-cont {
   height: 100%;
   min-width: 101px;
+  display: none;
 }
 
 .nav-sections {
@@ -65,6 +102,26 @@ h5 {
 
 .nav-link:hover {
   color: black;
+}
+
+.top-nav {
+  background-color: #000;
+  display: flex;
+  color: lightgray;
+  padding: 10px;
+  justify-content: space-between;
+}
+
+.top-nav li{
+  margin: 0 10px;
+}
+
+.top-list-left {
+  display: flex;
+}
+
+.top-list-right {
+  display: flex;
 }
 
 .right-sec {
@@ -109,8 +166,11 @@ h5 {
 .main-img-one {
   grid-column: 1/5;
   grid-row: 1/7;
-  background-image: linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(246, 113, 52, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/New-Safari-Browser-Mockup-PSD-796x411.jpg);
+  background-image: linear-gradient(to bottom, rgba(179, 179, 179, 0.63), rgba(126, 53, 19, 0.73)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/New-Safari-Browser-Mockup-PSD-796x411.jpg);
   margin-right: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .date {
@@ -178,7 +238,7 @@ h5 {
 
 .main-sec {
   max-width: 1176px;
-  margin: auto 80px;
+  margin: auto;
 }
 
 .latest-grid-wraper,
@@ -454,7 +514,7 @@ footer {
     width: 90%;
     margin: auto;
   }
-  
+
   .main-img {
     margin-right: 5px;
     margin-left: 5px;
