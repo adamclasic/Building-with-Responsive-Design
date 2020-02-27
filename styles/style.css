@@ -499,6 +499,10 @@ footer {
     display: none;
   }
 
+  .logo-cont {
+    display: block;
+  }
+
   .upper-div > h1 {
     display: none;
   }
