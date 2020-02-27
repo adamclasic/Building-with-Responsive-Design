@@ -244,7 +244,7 @@ h5 {
 .latest-grid-wraper,
 .grid-wraper {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(244px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(235px, 1fr));
   gap: 20px;
 }
 
@@ -529,7 +529,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 773px) {
+@media only screen and (max-width: 768px) {
   .nav-header {
     display: none;
   }
@@ -659,7 +659,7 @@ footer {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 425px) {
   .search-icon-cont {
     display: none;
   }
